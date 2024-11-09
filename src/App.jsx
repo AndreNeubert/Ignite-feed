@@ -1,4 +1,4 @@
-import { Post } from "./Post";
+import { Post } from "./components/Post/Post";
 import { Header } from "./components/Header/Header";
 import { Sidebar } from "./components/Sidebar/Sidebar";
 
@@ -14,11 +14,8 @@ export function App() {
       <div className={styles.wrapper}>
         <Sidebar />
         <main>
-          <Post
-            author="André Neubert"
-            content="Minha namorada é a melhor pessoa do planeta Terra!!"
-          />
-          <Post author="Maria Eduarda" content="Mais conhecida como Lovitica" />
+          <Post />
+          <Post />
         </main>
       </div>
     </div>
